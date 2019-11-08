@@ -5,7 +5,7 @@ const geocode = require('./util/geocode.js');
 const forcast = require('./util/forcast.js'); 
 
 const app = express();
-const port = process.env.port || '3000'
+const port = process.env.port || 3000
 
 /// printing the currentdir , rootdir, apni marzi ka path
 console.log(__dirname);
